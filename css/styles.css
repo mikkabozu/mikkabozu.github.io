@@ -1,7 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
-.tagline {
-  font-size: 90px;
-  line-height: 5.85rem; }
+@media (max-width: 575px) {
+  .tagline {
+    font-size: 52.5px;
+    line-height: 3.25rem; } }
+@media (min-width: 576px) {
+  .tagline {
+    font-size: 60px;
+    line-height: 3.55rem; } }
+@media (min-width: 786px) {
+  .tagline {
+    font-size: 70px;
+    line-height: 4.75rem; } }
+@media (min-width: 992px) {
+  .tagline {
+    font-size: 80px;
+    line-height: 5.25rem; } }
+@media (min-width: 1200px) {
+  .tagline {
+    font-size: 90px;
+    line-height: 5.85rem; } }
+
+@media (max-width: 575px) {
+  .sab-photo {
+    display: none; } }
+@media (min-width: 576px) {
+  .sab-photo {
+    display: none; } }
+@media (min-width: 786px) {
+  .sab-photo {
+    display: inline-block; } }
+@media (min-width: 992px) {
+  .sab-photo {
+    display: inline-block; } }
+@media (min-width: 1200px) {
+  .sab-photo {
+    display: inline-block; } }
 
 .sab-wrapper {
   height: auto;
@@ -21,8 +54,12 @@
 .navbar {
   background: rgba(255, 255, 255, 0.9); }
 
+.hoverable {
+  padding-top: 50px; }
+
 .hoverable:hover {
-  color: #0275d8; }
+  color: #0275d8;
+  padding-top: 45px; }
 
 .nav-link {
   text-decoration: none;
@@ -38,13 +75,13 @@
 .nav-link::before {
   transition: 600ms;
   height: 3px;
-  content: "";
   position: absolute;
   background-color: #0275d8; }
 
 .nav-link-ltr::before {
-  width: 0%;
+  width: 00%;
   bottom: 10px; }
 
-.nav-link-ltr:hover::before {
-  width: 90%; }
+@media (max-width: 575px) {
+  .pata {
+    padding-top: 20px; } }
